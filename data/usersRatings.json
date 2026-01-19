@@ -1,0 +1,1852 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Boutique Palacio Valladolid",
+      "comment": "Habitación confortable y decoración con encanto. El personal fue atento al resolver una pequeña incidencia con la calefacción. Desayuno correcto aunque con poca variedad de bollería."
+    },
+    {
+      "id": 2,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Sol Gran Vía Valladolid",
+      "comment": "Ubicación excelente para turismo. La habitación era algo pequeña y el baño con detalles de desgaste. En general una opción aceptable para una visita corta."
+    },
+    {
+      "id": 3,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Pensión Jardín Valladolid",
+      "comment": "Personal correcto y limpieza adecuada. Las camas eran un poco duras para mi gusto y el Wi-Fi tuvo cortes por la noche."
+    },
+    {
+      "id": 4,
+      "rating": 2,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Mirador Del Mar",
+      "comment": "La habitación no coincidía con las fotos y había ruido de la calle hasta tarde. El check-in fue lento y el recepcionista parecía desbordado."
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Hostal Río",
+      "comment": "Estancia fantástica: limpieza impecable, cama muy cómoda y el personal nos permitió dejar el equipaje tras el check-out sin problemas. Recomendable."
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Palacio Jardín Granada",
+      "comment": "Servicio excepcional y desayuno con productos locales de calidad. La habitación era amplia y la ubicación perfecta para moverse a pie."
+    },
+    {
+      "id": 7,
+      "rating": 1,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Urban Bahía Granada",
+      "comment": "Experiencia muy mala: la habitación olía a humedad, la limpieza fue insuficiente y tardaron mucho en atender una reclamación. No volvería."
+    },
+    {
+      "id": 8,
+      "rating": 3,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Comfort Argos",
+      "comment": "Hotel correcto para una noche. Instalaciones sencillas, la cama cómoda pero el baño algo anticuado. Buena relación calidad-precio."
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Hostal Roca",
+      "comment": "Pequeño y acogedor, la propietaria nos dio recomendaciones de restaurantes excelentes. Todo muy limpio y trato muy familiar."
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Urban Olivo",
+      "comment": "Buen hotel urbano: check-in rápido, habitación con buena iluminación y cama cómoda. El ascensor tardaba un poco, pero nada grave."
+    },
+    {
+      "id": 11,
+      "rating": 4,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Catalina Olivo Logroño",
+      "comment": "Hotel céntrico con personal muy amable. El desayuno tenía opciones locales y la limpieza fue excelente. Volvería sin dudar."
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Costa Encina",
+      "comment": "Habitación espaciosa y cama cómoda. La ubicación obliga a usar transporte, pero las vistas y tranquilidad lo compensan."
+    },
+    {
+      "id": 13,
+      "rating": 2,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Comfort Encina",
+      "comment": "La limpieza dejaba que desear y el lavabo tenía problemas de desagüe. El personal fue educado, pero la experiencia no fue buena."
+    },
+    {
+      "id": 14,
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Urban Río Burgos",
+      "comment": "Excelente estancia: la habitación estaba recién renovada, el desayuno buffet muy completo y la atención del personal impecable."
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Pensión Verde",
+      "comment": "Estancia discreta. Buena ubicación y precio, aunque las instalaciones necesitan alguna renovación y el minibar no funcionó."
+    },
+    {
+      "id": 16,
+      "rating": 3,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Mirador Bahía Almería",
+      "comment": "La habitación era funcional y la limpieza correcta. Molestó algo el ruido del aire acondicionado por la noche."
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Boutique Brisa Badajoz",
+      "comment": "Bonito hotel boutique con estilo. Personal educado y habitaciones con buen aislamiento. El desayuno, aunque limitado, estaba bien preparado."
+    },
+    {
+      "id": 18,
+      "rating": 4,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Castillo Verde",
+      "comment": "Decoración con gusto, detalles cuidados y cama muy cómoda. La ubicación es tranquila y el aparcamiento era fácil de encontrar."
+    },
+    {
+      "id": 19,
+      "rating": 2,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Comfort Del Sol",
+      "comment": "Reservé pensando en descansar, pero hubo ruido por la noche y la habitación no estaba totalmente limpia. Atención al cliente mejorable."
+    },
+    {
+      "id": 20,
+      "rating": 5,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Hostal Mediterráneo Melilla",
+      "comment": "Muy buena experiencia: ubicación junto al casco histórico, personal servicial y patios con encanto. Una estancia muy recomendable."
+    },
+    {
+      "id": 21,
+      "rating": 4,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Hostal Roca",
+      "comment": "Segundo viaje a este hostal y sigue manteniendo su nivel: trato cercano, habitaciones limpias y desayuno casero."
+    },
+    {
+      "id": 22,
+      "rating": 5,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Comfort Del Sol",
+      "comment": "Nos sorprendió para bien: nos ofrecieron una habitación con mejor vista y el trato fue muy profesional. Recomendable para escapadas."
+    },
+    {
+      "id": 76,
+      "rating": 3,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Comfort Del Sol",
+      "comment": "Hotel correcto pero impersonal. Ideal si buscas ubicación céntrica y precio ajustado; esperaría mejor limpieza en detalles."
+    },
+    {
+      "id": 77,
+      "rating": 1,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Comfort Del Sol",
+      "comment": "Tuve varios problemas: la habitación no estaba lista, tardaron en dar servicio y me ofrecieron escasas soluciones. No lo recomendaría."
+    },
+
+    {
+      "id": 78,
+      "rating": 5,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Hotel céntrico con buena insonorización. El desayuno continental tenía variedad y el personal nos ayudó con entradas y rutas locales."
+    },
+    {
+      "id": 79,
+      "rating": 4,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Urban Mediterráneo",
+      "comment": "Habitación amplia y cama cómoda. Noté que el aire acondicionado funcionaba muy bien y el check-in fue ágil."
+    },
+    {
+      "id": 80,
+      "rating": 2,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Ágora Bahía",
+      "comment": "El desayuno era escaso y la limpieza del baño dejó que desear. El personal intentó compensarlo pero no bastó."
+    },
+    {
+      "id": 81,
+      "rating": 4,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Lago Argos Madrid",
+      "comment": "Muy buen hotel para estancias de negocios. Buena conexión a transporte y habitaciones con escritorio cómodo."
+    },
+    {
+      "id": 82,
+      "rating": 3,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Residencia Jardín",
+      "comment": "Correcto en general. Le vendría bien una renovación en mobiliario, aunque la limpieza es aceptable y la ubicación práctica."
+    },
+    {
+      "id": 83,
+      "rating": 4,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Catalina Del Mar",
+      "comment": "Personal amable y desayuno con opciones saludables. Habitación silenciosa y con buena climatización."
+    },
+    {
+      "id": 84,
+      "rating": 3,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Buena relación calidad-precio. Algunas zonas comunes necesitan mantenimiento, pero la habitación estaba en buen estado."
+    },
+    {
+      "id": 85,
+      "rating": 2,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Hotel con potencial pero con problemas de higiene y atención lenta. Informé de fallos en el baño y no los solucionaron durante la estancia."
+    },
+    {
+      "id": 86,
+      "rating": 5,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Pequeño hostal con gran encanto local. La dueña nos trató como en casa y las recomendaciones de restaurantes fueron un acierto."
+    },
+    {
+      "id": 87,
+      "rating": 4,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Habitación cómoda, check-in sin esperas y el restaurante del hotel tiene platos interesantes con producto local."
+    },
+    {
+      "id": 88,
+      "rating": 4,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Hotel amplio con buenas instalaciones. El único pero fue que el ascensor se quedaba ocupado en horas punta."
+    },
+    {
+      "id": 89,
+      "rating": 5,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Estancia de lujo: servicio cercano, habitación con todas las comodidades y un restaurante sobresaliente. Muy recomendable para una ocasión especial."
+    },
+    {
+      "id": 90,
+      "rating": 2,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Buena ubicación pero la habitación mostraba desgaste y la limpieza no fue la esperada. Servicio poco resolutivo ante reclamaciones."
+    },
+    {
+      "id": 91,
+      "rating": 4,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Habitación con buena vista y colchón cómodo. El personal del desayuno muy servicial, aunque faltaba un poco más de variedad."
+    },
+    {
+      "id": 92,
+      "rating": 5,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Lago Del Sol",
+      "comment": "Hotel de alto nivel: spa completo, restaurante excelente y atención detallista. Una experiencia de 5 estrellas real."
+    },
+    {
+      "id": 93,
+      "rating": 3,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Posada con encanto tradicional. El desayuno casero fue lo mejor; la habitación algo pequeña pero acogedora."
+    },
+    {
+      "id": 94,
+      "rating": 4,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Buen equilibrio entre precio y calidad. Servicio eficiente y ubicación con acceso a transporte público."
+    },
+    {
+      "id": 95,
+      "rating": 3,
+      "userEmail": "prueba21@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Apartamentos prácticos para visitas largas. La cocina estaba equipada, aunque faltaban algunos utensilios básicos."
+    },
+    {
+      "id": 96,
+      "rating": 2,
+      "userEmail": "prueba22@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "No cumplió expectativas: calefacción irregular y recepción poco comunicativa. No es recomendable si se viaja en temporada fría."
+    },
+    {
+      "id": 97,
+      "rating": 4,
+      "userEmail": "prueba23@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "Buena opción para grupos: habitaciones bien mantenidas y servicio de restauración suficiente para eventos pequeños."
+    },
+    {
+      "id": 98,
+      "rating": 4,
+      "userEmail": "prueba24@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Lugar bonito y cuidado. La decoración es su punto fuerte y el personal muy atento con detalles personalizados."
+    },
+    {
+      "id": 99,
+      "rating": 3,
+      "userEmail": "prueba25@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Limpio y funcional. El servicio de limpieza fue puntual, aunque las áreas comunes podrían estar mejor iluminadas."
+    },
+    {
+      "id": 100,
+      "rating": 5,
+      "userEmail": "prueba26@gmail.com",
+      "hotelName": "Parque Del Sol",
+      "comment": "Una joya inesperada: personal profesional, desayuno con productos locales y tranquilidad absoluta. Volvería sin duda."
+    },
+    {
+      "id": 101,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Hotel con buenas instalaciones y gimnasio pequeño pero funcional. La habitación tenía buena iluminación natural."
+    },
+    {
+      "id": 102,
+      "rating": 2,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Ágora Luna",
+      "comment": "Personal amable pero habitación con problemas de mantenimiento (enchufe suelto y pintura descascarillada)."
+    },
+    {
+      "id": 103,
+      "rating": 3,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Bahía Jardín",
+      "comment": "Correcto para una visita corta. El bar cierra pronto y la oferta nocturna es limitada en los alrededores."
+    },
+    {
+      "id": 104,
+      "rating": 5,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Mar Del Mar",
+      "comment": "Excelente trato del personal y habitación con vistas agradables. Nos ayudaron a reservar actividades en la zona."
+    },
+    {
+      "id": 105,
+      "rating": 4,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Residencia Brisa",
+      "comment": "Buena opción para viajes familiares: habitaciones comunicadas disponibles y zona de juegos para niños."
+    },
+    {
+      "id": 106,
+      "rating": 1,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Residencia Bahía",
+      "comment": "Sucia al entrar en la habitación y con un olor persistente. La recepción no ofreció soluciones satisfactorias."
+    },
+    {
+      "id": 107,
+      "rating": 4,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Hotel Encanto",
+      "comment": "Encantador y bien ubicado. Servicio de habitaciones rápido y desayuno con opciones sin gluten."
+    },
+    {
+      "id": 108,
+      "rating": 3,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Mar Jardín Madrid",
+      "comment": "Todo en orden pero sin sorpresas. Buena limpieza, aunque la decoración es un poco anticuada."
+    },
+    {
+      "id": 109,
+      "rating": 5,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Mar Encanto",
+      "comment": "Servicio 5 estrellas: nos atendieron con mucha profesionalidad y la habitación era amplia con amenities de calidad."
+    },
+    {
+      "id": 110,
+      "rating": 2,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Lago Verde Madrid",
+      "comment": "La habitación tenía ruido por la mañana temprano y la limpieza no fue meticulosa. El desayuno es limitado."
+    },
+    {
+      "id": 111,
+      "rating": 4,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Boutique Río",
+      "comment": "Bonito hotel boutique en zona tranquila. A destacar la atención personalizada y la limpieza diaria."
+    },
+    {
+      "id": 112,
+      "rating": 3,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Urban Sierra",
+      "comment": "Funcional para estancias cortas. El aparcamiento es estrecho y puede ser un problema con coche grande."
+    },
+    {
+      "id": 113,
+      "rating": 5,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Catalina Sierra",
+      "comment": "Muy buen servicio y desayuno con productos locales. La temperatura de la habitación estaba ideal."
+    },
+    {
+      "id": 114,
+      "rating": 4,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Sol Palacio Madrid",
+      "comment": "Buena opción para turismo, la ubicación permite ir a pie a muchos puntos de interés y la habitación era confortable."
+    },
+    {
+      "id": 115,
+      "rating": 3,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Castillo Bahía",
+      "comment": "Hotel correcto, el restaurante del hotel tenía platos ricos pero el servicio tardó más de lo esperado."
+    },
+    {
+      "id": 116,
+      "rating": 5,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Imperial Colon Madrid",
+      "comment": "Magnífica experiencia en un hotel con historia. Habitación muy cómoda y el restaurante ofrece platos de alto nivel."
+    },
+    {
+      "id": 117,
+      "rating": 2,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Parque Roca",
+      "comment": "Check-in desorganizado y la habitación asignada tenía un olor extraño. La dirección ofreció disculpas pero no solución inmediata."
+    },
+    {
+      "id": 118,
+      "rating": 4,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Pensión Río",
+      "comment": "Buena relación calidad-precio para viajeros con presupuesto ajustado. Limpieza correcta y camas confortables."
+    },
+    {
+      "id": 119,
+      "rating": 3,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Gran Encanto",
+      "comment": "Instalaciones agradables pero el servicio de recepción era algo lento al llegar. Desayuno abundante."
+    },
+    {
+      "id": 120,
+      "rating": 4,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Bahía Centro",
+      "comment": "Ubicación perfecta y habitaciones silenciosas. El único fallo fue encontrar la caja fuerte averiada."
+    },
+    {
+      "id": 121,
+      "rating": 2,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Imperial Sierra Valencia",
+      "comment": "El mobiliario está muy desgastado y noté falta de mantenimiento en varias zonas comunes."
+    },
+    {
+      "id": 122,
+      "rating": 5,
+      "userEmail": "prueba21@gmail.com",
+      "hotelName": "Castillo Ondas",
+      "comment": "Hotel de gran nivel con habitaciones amplias y excelente atención. Perfecto para una escapada de relax."
+    },
+    {
+      "id": 123,
+      "rating": 3,
+      "userEmail": "prueba22@gmail.com",
+      "hotelName": "Apartamentos Del Mar",
+      "comment": "Útil para largas estancias. Cocina pequeña pero funcional; la limpieza fue correcta durante toda la semana."
+    },
+    {
+      "id": 124,
+      "rating": 4,
+      "userEmail": "prueba23@gmail.com",
+      "hotelName": "Catalina Bahía Valencia",
+      "comment": "Habitación con buen tamaño y cama cómoda. La recepción fue rápida y nos proporcionaron mapa y recomendaciones locales."
+    },
+    {
+      "id": 125,
+      "rating": 1,
+      "userEmail": "prueba24@gmail.com",
+      "hotelName": "Posada Encanto",
+      "comment": "Mala experiencia: ruidos hasta tarde, problemas con la calefacción y trato poco profesional por parte de recepción."
+    },
+    {
+      "id": 126,
+      "rating": 4,
+      "userEmail": "prueba25@gmail.com",
+      "hotelName": "Pensión Del Sol",
+      "comment": "Económico y limpio. Ideal para viajeros que buscan algo básico y céntrico, sin grandes lujos."
+    },
+    {
+      "id": 127,
+      "rating": 5,
+      "userEmail": "prueba26@gmail.com",
+      "hotelName": "Puerta Brisa",
+      "comment": "Gran descubrimiento: la habitación tenía detalles de calidad, el personal muy atento y el desayuno con productos frescos."
+    },
+    {
+      "id": 128,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Real Vista Valencia",
+      "comment": "Hotel correcto para una noche. El aparcamiento es algo caro y el aislamiento acústico mejorable."
+    },
+    {
+      "id": 129,
+      "rating": 4,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Rural Oliva",
+      "comment": "Lugar tranquilo con buen servicio. Perfecto para relajarse lejos del bullicio; la cena en el restaurante fue casera y sabrosa."
+    },
+    {
+      "id": 130,
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Apartamentos Argos",
+      "comment": "Apartamentos muy nuevos y bien equipados. Buena opción para familias, con cocina completa y limpieza diaria."
+    },
+    {
+      "id": 131,
+      "rating": 2,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Gran Del Sol",
+      "comment": "Poca atención al detalle: el colchón hundido y faltaban amenities básicos en el baño. Relación calidad-precio pobre."
+    },
+    {
+      "id": 132,
+      "rating": 4,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Puente Suite Sevilla",
+      "comment": "Buen hotel para visitar la ciudad: personal servicial y desayuno variado. La cama muy cómoda para descansar tras un día de turismo."
+    },
+    {
+      "id": 133,
+      "rating": 3,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Puerta Del Mar",
+      "comment": "Buena ubicación pero la habitación tenía ruidos por la mañana. El restaurante es correcto pero no sobresale."
+    },
+    {
+      "id": 134,
+      "rating": 5,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Mirador Del Mar Sevilla",
+      "comment": "Perfecto para una escapada romántica: habitación con vistas, trato atento y desayuno en terraza delicioso."
+    },
+    {
+      "id": 135,
+      "rating": 1,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Puente Río",
+      "comment": "Reservé con antelación y aun así la habitación no estaba lista y nos dieron una alternativa peor. Muy mala gestión."
+    },
+    {
+      "id": 136,
+      "rating": 4,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Mirador Verde Sevilla",
+      "comment": "Pequeño y acogedor, perfecto para descansar. El personal se preocupó por nuestras necesidades dietéticas en el desayuno."
+    },
+    {
+      "id": 137,
+      "rating": 4,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Ágora Colon",
+      "comment": "Habitaciones confortables y personal muy profesional durante eventos. Buen servicio de catering para reuniones."
+    },
+    {
+      "id": 138,
+      "rating": 3,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Mar Jardín",
+      "comment": "Instalaciones en general adecuadas, aunque el gimnasio es pequeño y el servicio de bar cerraba temprano."
+    },
+    {
+      "id": 139,
+      "rating": 5,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Gran Argos",
+      "comment": "Pequeño y muy bien gestionado. La habitación estaba recién renovada y el personal cuidó todos los detalles."
+    },
+    {
+      "id": 140,
+      "rating": 2,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Urban Ondas",
+      "comment": "El check-in fue muy lento y la habitación asignada tenía ventanas con poca luz. Mejorable en organización."
+    },
+    {
+      "id": 141,
+      "rating": 4,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Mar Gran Vía",
+      "comment": "Muy céntrico y con servicios adaptados para congresos. Habitación cómoda y buena insonorización."
+    },
+    {
+      "id": 142,
+      "rating": 3,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Hotel Verde",
+      "comment": "Buena ubicación y personal educado; sin embargo la ropa de cama mostraba pequeñas manchas que deberían revisar."
+    },
+    {
+      "id": 143,
+      "rating": 5,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Comfort Estrella",
+      "comment": "Excelente relación calidad-precio. Habitaciones amplias y el desayuno tipo buffet con productos frescos."
+    },
+    {
+      "id": 144,
+      "rating": 3,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Boutique Del Sol",
+      "comment": "Bonita fachada y ubicación tranquila. La habitación tenía una cama demasiado blanda para mi gusto."
+    },
+    {
+      "id": 145,
+      "rating": 4,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Mirador Brisa",
+      "comment": "Hotel moderno con buena iluminación y zonas comunes agradables. Servicio de limpieza puntual y profesional."
+    },
+    {
+      "id": 146,
+      "rating": 2,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Boutique Palacio Valladolid",
+      "comment": "El personal fue poco proactivo y la habitación asignada estaba en un piso alto sin ascensor accesible. Cansado tras subir maletas."
+    },
+    {
+      "id": 147,
+      "rating": 5,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Pensión Vista Valladolid",
+      "comment": "Sencillo pero acogedor. El dueño nos atendió personalmente y nos explicó rutas por la zona que resultaron muy útiles."
+    },
+    {
+      "id": 148,
+      "rating": 4,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Costa Coral",
+      "comment": "Habitación amplia y camas grandes. Ideal para familias, con buenas opciones de desayuno."
+    },
+    {
+      "id": 149,
+      "rating": 3,
+      "userEmail": "prueba21@gmail.com",
+      "hotelName": "Puerta Ondas",
+      "comment": "Hotel económico con ubicación práctica. Las habitaciones son básicas pero limpias, perfecto si sólo buscas dormir."
+    },
+    {
+      "id": 150,
+      "rating": 5,
+      "userEmail": "prueba22@gmail.com",
+      "hotelName": "Palacio Centro Valladolid",
+      "comment": "Magnífica experiencia en el centro de la ciudad. La habitación era muy cómoda, el desayuno de calidad y el personal nos ayudó con reservas."
+    },
+    {
+      "id": 200,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Habitación limpia y cómoda, el desayuno estaba bien y la ubicación era conveniente para caminar por la ciudad."
+    },
+    {
+      "id": 201,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Excelente trato del personal y limpieza impecable. Las vistas desde la habitación fueron espectaculares."
+    },
+    {
+      "id": 202,
+      "rating": 3,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Hotel correcto en general. Algunas instalaciones necesitan mantenimiento, pero la estancia fue aceptable."
+    },
+    {
+      "id": 203,
+      "rating": 2,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "El check-in tardó demasiado y la habitación no estaba lista a tiempo. No muy recomendable."
+    },
+    {
+      "id": 204,
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Excelente servicio y habitación muy confortable. El desayuno era variado y de gran calidad."
+    },
+    {
+      "id": 205,
+      "rating": 3,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Hotel decente para estancia corta. La habitación estaba limpia, aunque el mobiliario algo desgastado."
+    },
+    {
+      "id": 206,
+      "rating": 4,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Habitación amplia y cómoda, con buena iluminación. El personal fue atento y servicial."
+    },
+    {
+      "id": 207,
+      "rating": 5,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Pequeña posada encantadora con personal muy amable. Todo impecable durante la estancia."
+    },
+    {
+      "id": 208,
+      "rating": 2,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Hotel correcto pero algo ruidoso. No todas las instalaciones estaban operativas durante nuestra visita."
+    },
+    {
+      "id": 209,
+      "rating": 4,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Apartamentos cómodos y funcionales. Buena relación calidad-precio y ubicación práctica."
+    },
+    {
+      "id": 210,
+      "rating": 5,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "Gran estancia: habitaciones limpias y desayuno completo. Personal atento y amable."
+    },
+    {
+      "id": 211,
+      "rating": 3,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "Hotel correcto, pero algo anticuado. La limpieza fue adecuada y el personal educado."
+    },
+    {
+      "id": 212,
+      "rating": 4,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Bonito hotel, bien ubicado y con un personal muy amable. El desayuno era limitado pero suficiente."
+    },
+    {
+      "id": 213,
+      "rating": 5,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Apartamentos excelentes para familias. Todo nuevo y bien equipado. Muy recomendable."
+    },
+    {
+      "id": 214,
+      "rating": 2,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Parque Del Sol",
+      "comment": "Habitación con problemas de limpieza y ruidosa. La recepción poco resolutiva."
+    },
+    {
+      "id": 215,
+      "rating": 4,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Buena ubicación y habitaciones confortables. El personal muy atento."
+    },
+    {
+      "id": 216,
+      "rating": 3,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Ágora Luna",
+      "comment": "Estancia correcta. El desayuno podría mejorar, pero la habitación estaba limpia."
+    },
+    {
+      "id": 217,
+      "rating": 5,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Bahía Jardín",
+      "comment": "Excelente hotel con vistas preciosas y personal muy amable. Todo perfecto."
+    },
+    {
+      "id": 218,
+      "rating": 4,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Mar Del Mar",
+      "comment": "Hotel agradable, buena limpieza y trato correcto del personal."
+    },
+    {
+      "id": 219,
+      "rating": 3,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Residencia Brisa",
+      "comment": "Estancia aceptable, aunque el mobiliario podría estar renovado. La ubicación es buena."
+    },
+    {
+      "id": 220,
+      "rating": 5,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Residencia Bahía",
+      "comment": "Perfecto para corta estancia. Habitación cómoda y servicio excelente."
+    },
+    {
+      "id": 221,
+      "rating": 4,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Hotel Encanto",
+      "comment": "Buen hotel, personal amable y habitaciones limpias. Recomendable."
+    },
+    {
+      "id": 222,
+      "rating": 3,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Mar Jardín Madrid",
+      "comment": "Hotel correcto para corta estancia. La ubicación era conveniente."
+    },
+    {
+      "id": 223,
+      "rating": 5,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Mar Encanto",
+      "comment": "Hotel muy bonito, bien cuidado y el personal excelente. Todo perfecto."
+    },
+    {
+      "id": 224,
+      "rating": 4,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Lago Verde Madrid",
+      "comment": "Habitaciones amplias y limpias, con un desayuno correcto. Ubicación muy buena."
+    },
+    {
+      "id": 225,
+      "rating": 3,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Boutique Río",
+      "comment": "Estancia correcta, aunque la habitación era algo pequeña. El servicio fue amable."
+    },
+    {
+      "id": 226,
+      "rating": 5,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Urban Sierra",
+      "comment": "Excelente hotel, todo limpio y moderno. El desayuno completo y personal muy atento."
+    },
+    {
+      "id": 227,
+      "rating": 4,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Catalina Sierra",
+      "comment": "Hotel bonito y bien ubicado. La habitación limpia y cómoda, el trato muy correcto."
+    },
+    {
+      "id": 228,
+      "rating": 3,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Sol Palacio Madrid",
+      "comment": "Hotel correcto, habitaciones limpias y desayuno básico. Estancia aceptable."
+    },
+    {
+      "id": 229,
+      "rating": 5,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Castillo Bahía",
+      "comment": "Hotel estupendo: personal amable y habitación muy cómoda. Recomendable."
+    },
+    {
+      "id": 230,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Buen hotel, habitaciones limpias y desayuno adecuado. La ubicación es céntrica."
+    },
+    {
+      "id": 231,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Urban Mediterráneo",
+      "comment": "Correcto para corta estancia. La limpieza fue buena pero la habitación algo pequeña."
+    },
+    {
+      "id": 232,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Ágora Bahía",
+      "comment": "Excelente servicio, habitaciones cómodas y vistas agradables."
+    },
+    {
+      "id": 233,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Lago Argos Madrid",
+      "comment": "Muy buen hotel, buena ubicación y personal atento."
+    },
+    {
+      "id": 234,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Jardín",
+      "comment": "Hotel correcto, algo antiguo pero limpio y funcional."
+    },
+    {
+      "id": 235,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Catalina Del Mar",
+      "comment": "Estancia excelente, muy recomendable para visitar la ciudad."
+    },
+    {
+      "id": 236,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Habitación cómoda y bien equipada, buen servicio."
+    },
+    {
+      "id": 237,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Correcto pero con algunos detalles a mejorar. Ubicación aceptable."
+    },
+    {
+      "id": 238,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Excelente estancia, limpio, personal amable y buena atención."
+    },
+    {
+      "id": 239,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Hotel agradable y bien cuidado. La habitación confortable y limpia."
+    },
+    {
+      "id": 240,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Correcto, aunque algunas instalaciones necesitan mantenimiento."
+    },
+    {
+      "id": 241,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Estancia fantástica, personal atento y habitación espaciosa."
+    },
+    {
+      "id": 242,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Hotel muy correcto, limpio y cómodo. Recomendable."
+    },
+    {
+      "id": 243,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Habitación decente, buena limpieza pero algunas instalaciones antiguas."
+    },
+    {
+      "id": 244,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Lago Del Sol",
+      "comment": "Excelente hotel, muy limpio, habitación espaciosa y buen desayuno."
+    },
+    {
+      "id": 245,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Posada encantadora, personal muy amable y buen desayuno."
+    },
+    {
+      "id": 246,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Estancia aceptable, sin grandes problemas pero nada especial."
+    },
+    {
+      "id": 247,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Muy cómodos y limpios, perfectos para estancia familiar."
+    },
+    {
+      "id": 248,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "Hotel correcto, buena limpieza y personal atento."
+    },
+    {
+      "id": 249,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "Aceptable, aunque el mobiliario es algo antiguo y la habitación pequeña."
+    },
+    {
+      "id": 112,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Hotel elegante con buena ubicación. La habitación era espaciosa y limpia, aunque el wifi se desconectaba de vez en cuando."
+    },
+    {
+      "id": 113,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Buena ubicación y ambiente tranquilo, aunque la cama no era muy cómoda y el baño algo antiguo."
+    },
+    {
+      "id": 114,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Estancia excelente: limpieza impecable, personal atento y desayuno abundante. Muy recomendable."
+    },
+    {
+      "id": 115,
+      "rating": 2,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "La habitación era pequeña y ruidosa. La atención del personal mejorable."
+    },
+    {
+      "id": 116,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Estancia agradable, buena limpieza y ubicación céntrica. La decoración podría renovarse."
+    },
+    {
+      "id": 117,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Habitación correcta, desayuno suficiente. La atención al cliente fue cordial pero algo lenta."
+    },
+    {
+      "id": 118,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Excelente hotel: limpieza, confort y personal muy atento. Volvería sin dudar."
+    },
+    {
+      "id": 119,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Bonitas vistas y habitación cómoda. Buena relación calidad-precio."
+    },
+    {
+      "id": 120,
+      "rating": 2,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Lago Del Sol",
+      "comment": "El hotel estaba limpio pero la habitación era pequeña y algo ruidosa."
+    },
+    {
+      "id": 121,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Buena estancia para una visita corta. Personal amable y desayuno correcto."
+    },
+    {
+      "id": 122,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Muy recomendable: habitación amplia, excelente servicio y ubicación perfecta."
+    },
+    {
+      "id": 123,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Funcional y limpio. La cocina necesita algunos utensilios adicionales."
+    },
+    {
+      "id": 124,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "Buena ubicación y tranquilidad. Habitación cómoda, aunque el baño podría mejorar."
+    },
+    {
+      "id": 125,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "Estancia perfecta: limpieza, comodidad y personal muy amable. Repetiría sin dudar."
+    },
+    {
+      "id": 126,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Correcto en general. Habitaciones cómodas pero decoración anticuada."
+    },
+    {
+      "id": 127,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Buena ubicación y funcionalidad. Limpieza puntual y espacio cómodo."
+    },
+    {
+      "id": 128,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Parque Del Sol",
+      "comment": "Excelente estancia: habitación grande, personal atento y desayuno muy completo."
+    },
+    {
+      "id": 129,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Muy buen hotel: limpio, céntrico y cómodo. Volvería sin dudas."
+    },
+    {
+      "id": 130,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Ágora Luna",
+      "comment": "Correcto para una noche, pero habitación pequeña y desayuno limitado."
+    },
+    {
+      "id": 131,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Bahía Jardín",
+      "comment": "Habitación limpia y cómoda. El personal fue amable y servicial."
+    },
+    {
+      "id": 132,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Mar Del Mar",
+      "comment": "Excelente servicio y atención. La habitación espaciosa y muy cómoda."
+    },
+    {
+      "id": 133,
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Brisa",
+      "comment": "Estancia tranquila, personal amable y buena limpieza."
+    },
+    {
+      "id": 134,
+      "rating": 3,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Residencia Bahía",
+      "comment": "Habitación correcta, sin grandes lujos. Buena relación calidad-precio."
+    },
+    {
+      "id": 135,
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Hotel Encanto",
+      "comment": "Hotel maravilloso: limpieza, atención y confort inmejorables."
+    },
+    {
+      "id": 136,
+      "rating": 4,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Habitación amplia y limpia. Buen desayuno y ubicación excelente para recorrer la ciudad."
+    },
+    {
+      "id": 137,
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Urban Mediterráneo",
+      "comment": "Hotel moderno y confortable. El personal fue muy amable y atento en todo momento."
+    },
+    {
+      "id": 138,
+      "rating": 3,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Ágora Bahía",
+      "comment": "Estancia correcta. Habitación cómoda, aunque el wifi era inestable en algunas zonas."
+    },
+    {
+      "id": 139,
+      "rating": 2,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Lago Argos Madrid",
+      "comment": "La limpieza era mejorable y la habitación un poco pequeña para dos personas."
+    },
+    {
+      "id": 140,
+      "rating": 4,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Residencia Jardín",
+      "comment": "Buena atención y ubicación. Habitación cómoda y silenciosa, ideal para descansar."
+    },
+    {
+      "id": 141,
+      "rating": 5,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Catalina Del Mar",
+      "comment": "Excelente estancia. Personal muy atento y desayuno delicioso con productos locales."
+    },
+    {
+      "id": 142,
+      "rating": 3,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Hotel correcto para una estancia corta. La decoración algo anticuada pero funcional."
+    },
+    {
+      "id": 143,
+      "rating": 4,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Muy tranquilo y acogedor. Ideal para desconectar, aunque la habitación era básica."
+    },
+    {
+      "id": 144,
+      "rating": 2,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Pequeño hostal, algo ruidoso y la limpieza podía mejorar. El personal fue amable."
+    },
+    {
+      "id": 145,
+      "rating": 5,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Excelente ubicación, habitación cómoda y desayuno muy completo. Muy recomendable."
+    },
+    {
+      "id": 146,
+      "rating": 4,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Buena relación calidad-precio. Personal amable y habitaciones limpias y espaciosas."
+    },
+    {
+      "id": 147,
+      "rating": 3,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Hotel correcto. Buen servicio pero algunas instalaciones necesitan mantenimiento."
+    },
+    {
+      "id": 148,
+      "rating": 5,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Estancia perfecta. Limpieza impecable, habitación amplia y personal muy atento."
+    },
+    {
+      "id": 149,
+      "rating": 4,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Bonitas vistas y habitaciones confortables. Desayuno variado y buena ubicación."
+    },
+    {
+      "id": 150,
+      "rating": 2,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Lago Del Sol",
+      "comment": "Hotel correcto pero la habitación estaba algo desgastada y ruidosa por la noche."
+    },
+    {
+      "id": 151,
+      "rating": 4,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Estancia agradable, personal atento y desayuno sencillo pero suficiente."
+    },
+    {
+      "id": 152,
+      "rating": 5,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Todo perfecto: limpieza, confort y atención del personal sobresalientes."
+    },
+    {
+      "id": 153,
+      "rating": 3,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Correcto para pasar unos días. Limpieza aceptable pero algunos utensilios de cocina faltaban."
+    },
+    {
+      "id": 154,
+      "rating": 4,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "Muy buena ubicación y habitación cómoda. El desayuno podía tener más variedad."
+    },
+    {
+      "id": 155,
+      "rating": 5,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "Estancia excelente: limpieza, atención y comodidad perfectas. Muy recomendable."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Estancia cómoda y tranquila. Buen desayuno y personal amable, aunque la habitación era algo pequeña."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Parque Del Sol",
+      "comment": "Excelente atención y limpieza impecable. La ubicación es ideal para pasear por la ciudad."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Correcto para pasar un par de noches. Habitación limpia pero algo ruidosa."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Ágora Luna",
+      "comment": "La habitación no estaba lista a la hora del check-in y la limpieza dejaba que desear."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Bahía Jardín",
+      "comment": "Hotel agradable con buen servicio. Desayuno correcto y buena ubicación."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Mar Del Mar",
+      "comment": "Increíble estancia. Personal muy atento y habitación con excelentes vistas."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Residencia Brisa",
+      "comment": "Estancia discreta. Correcta limpieza pero instalaciones algo antiguas."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Residencia Bahía",
+      "comment": "Buena ubicación y atención correcta. Habitaciones cómodas aunque básicas."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Hotel Encanto",
+      "comment": "Habitación pequeña y baño con problemas de desagüe. El personal amable pero poco resolutivo."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Mar Jardín Madrid",
+      "comment": "Todo perfecto: habitación limpia, desayuno variado y personal muy atento."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Mar Encanto",
+      "comment": "Muy buena estancia. Hotel cómodo, desayuno completo y excelente ubicación."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Lago Verde Madrid",
+      "comment": "Hotel correcto, habitación funcional pero con poca iluminación natural."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Boutique Río",
+      "comment": "Experiencia excelente: habitación confortable, limpieza perfecta y personal atento."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Urban Sierra",
+      "comment": "Estancia agradable. Buen servicio y ubicación céntrica, aunque la habitación pequeña."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Catalina Sierra",
+      "comment": "Correcto para unos días. Limpieza aceptable pero desayuno mejorable."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Sol Palacio Madrid",
+      "comment": "Hotel espectacular. Todo limpio, personal muy atento y habitaciones amplias."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Castillo Bahía",
+      "comment": "Problemas con el check-in y la habitación estaba sucia a la llegada."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Imperial Colon Madrid",
+      "comment": "Estancia correcta y cómoda. Personal amable y desayuno variado."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Parque Roca",
+      "comment": "Correcto para pasar la noche. Habitaciones limpias pero instalaciones anticuadas."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Pensión Río",
+      "comment": "Pequeño y acogedor. Todo limpio y personal muy atento. Excelente para escapadas cortas."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba21@gmail.com",
+      "hotelName": "Gran Encanto",
+      "comment": "Hotel cómodo y limpio. Muy buena atención del personal y ubicación céntrica."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba22@gmail.com",
+      "hotelName": "Bahía Centro",
+      "comment": "Estancia correcta. Habitación sencilla y desayuno básico pero suficiente."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Hotel excelente, habitación amplia y limpia. Personal muy amable y desayuno delicioso."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Estancia aceptable. La habitación correcta pero algo pequeña y el desayuno limitado."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Hotel tranquilo y limpio. Buena atención y ubicación céntrica, ideal para pasear."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "La habitación tenía detalles descuidados y el personal poco atento. No muy recomendable."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Experiencia perfecta. Todo limpio, personal muy atento y ubicación excelente."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Estancia correcta, buena limpieza pero la habitación algo ruidosa."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Hotel cómodo y práctico para estancias largas. Limpieza correcta y personal amable."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Residencia Encina",
+      "comment": "La habitación estaba sucia y el baño tenía problemas de mantenimiento. Atención mejorable."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Pequeño y acogedor, todo muy limpio y personal muy atento. Muy recomendable."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "Hotel muy cómodo, habitaciones amplias y desayuno variado. Perfecto para una estancia corta."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Correcto para unos días. Habitación limpia pero instalaciones un poco antiguas."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Catalina Del Mar",
+      "comment": "Todo perfecto: habitación limpia, atención excelente y desayuno muy bueno."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Estancia agradable. Personal muy amable y ubicación tranquila. Ideal para desconectar."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "La habitación tenía problemas de limpieza y el baño con detalles de mantenimiento."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Lago Del Sol",
+      "comment": "Hotel increíble. Todo muy limpio, personal atento y vistas espectaculares desde la habitación."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Correcto para pasar la noche. Habitaciones básicas y desayuno limitado."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Ágora Bahía",
+      "comment": "Estancia agradable, buena limpieza y personal atento. Habitación correcta."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Mala experiencia: la habitación pequeña y con ruidos por la noche. Atención al cliente deficiente."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Urban Mediterráneo",
+      "comment": "Todo perfecto: habitación amplia y limpia, personal muy atento y buena ubicación."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Residencia Jardín",
+      "comment": "Estancia cómoda y agradable. Buena limpieza y desayuno correcto."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba20@gmail.com",
+      "hotelName": "Lago Argos Madrid",
+      "comment": "Hotel correcto. Habitaciones funcionales y desayuno aceptable."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba21@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Excelente experiencia: todo limpio, personal muy atento y habitaciones con encanto."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba22@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Estancia agradable. Personal correcto y habitación limpia y cómoda."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Gran Colon",
+      "comment": "Estancia fantástica, habitación amplia y desayuno excelente. Personal muy atento."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Posada Ondas Madrid",
+      "comment": "Hotel correcto, habitación funcional pero sin lujos. Ubicación buena."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Plaza Mediterráneo",
+      "comment": "Habitación cómoda y limpia. Desayuno variado y buena atención del personal."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Apartamentos Vista",
+      "comment": "Apartamento pequeño y con muebles desgastados. Limpieza correcta pero mejorable."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Residencia Encanto",
+      "comment": "Excelente estancia: habitaciones confortables y personal amable. Todo impecable."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Ágora Verde",
+      "comment": "Estancia aceptable, habitación pequeña y desayuno limitado. Correcto para corta estancia."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Lago Mediterráneo",
+      "comment": "Hotel agradable, habitación amplia y limpio. Desayuno y personal correctos."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Habitación algo descuidada y ruidosa. Personal correcto pero poco atento."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Imperial Luna",
+      "comment": "Estancia perfecta: habitación espaciosa, todo limpio y buen desayuno."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Rural Río",
+      "comment": "Hotel correcto, habitación sencilla. Ideal para una noche, sin más."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Buena ubicación y habitación cómoda. Desayuno adecuado y personal amable."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Boutique Brisa",
+      "comment": "Hotel pequeño, habitación modesta y desayuno básico. Atención del personal correcta."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Parque Sierra Madrid",
+      "comment": "Estancia excelente, habitación grande y muy limpia. Personal atento y profesional."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Catalina Del Mar",
+      "comment": "Correcto, habitación limpia pero algo anticuada. Servicio aceptable."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Bahía Jardín",
+      "comment": "Hotel cómodo, habitación limpia y buen desayuno. Personal amable."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Gran Olivo Madrid",
+      "comment": "La habitación mostraba desgaste y el servicio de limpieza fue lento. Correcto para pasar la noche."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Boutique Río",
+      "comment": "Excelente estancia, habitación amplia y limpia. Muy buena atención y desayuno delicioso."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Residencia Brisa",
+      "comment": "Hotel correcto, habitación pequeña pero limpia. Personal amable y servicial."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Imperial Colon Madrid",
+      "comment": "Habitación cómoda y limpia, desayuno correcto. Buena ubicación y personal atento."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Parque Del Sol",
+      "comment": "Estancia regular: habitación pequeña y algo descuidada, personal correcto pero poco atento."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba00@gmail.com",
+      "hotelName": "Pensión Río",
+      "comment": "Habitación cómoda y limpia, personal amable. Buena relación calidad-precio."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba01@gmail.com",
+      "hotelName": "Gran Encanto",
+      "comment": "Hotel agradable, aunque la habitación tenía algunos desperfectos. Desayuno correcto."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba02@gmail.com",
+      "hotelName": "Bahía Centro",
+      "comment": "Excelente estancia, habitación espaciosa y limpia. Personal muy atento y desayuno completo."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba03@gmail.com",
+      "hotelName": "Sol Palacio Madrid",
+      "comment": "Habitación pequeña y con mobiliario anticuado. El desayuno podría mejorar."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba04@gmail.com",
+      "hotelName": "Castillo Bahía",
+      "comment": "Hotel bonito, habitaciones limpias y desayuno variado. Buena atención del personal."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba05@gmail.com",
+      "hotelName": "Urban Sierra",
+      "comment": "Estancia correcta, habitación funcional. Personal amable, pero sin detalles especiales."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba06@gmail.com",
+      "hotelName": "Catalina Sierra",
+      "comment": "Muy buena experiencia, habitación limpia y amplia. Desayuno y servicio excelentes."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba07@gmail.com",
+      "hotelName": "Apartamentos Del Mar",
+      "comment": "Apartamento básico, limpieza regular. Correcto solo para una noche."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba08@gmail.com",
+      "hotelName": "Imperial Colon Madrid",
+      "comment": "Hotel con buena ubicación y habitación confortable. Personal atento."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba09@gmail.com",
+      "hotelName": "Parque Roca",
+      "comment": "Estancia aceptable, habitación sencilla y desayuno normal. Correcto para pasar la noche."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba10@gmail.com",
+      "hotelName": "Hostal Del Mar",
+      "comment": "Excelente hotel, habitación cómoda y limpia. Personal muy atento."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba11@gmail.com",
+      "hotelName": "Residencia Bahía",
+      "comment": "Hotel básico, habitación pequeña y baño algo descuidado. Desayuno limitado."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba12@gmail.com",
+      "hotelName": "Mar Encanto",
+      "comment": "Habitación amplia y limpia, personal amable y desayuno bueno. Muy recomendable."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba13@gmail.com",
+      "hotelName": "Mar Jardín Madrid",
+      "comment": "Hotel correcto, habitación sencilla pero limpia. Personal cordial."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba14@gmail.com",
+      "hotelName": "Lago Verde Madrid",
+      "comment": "Estancia excelente: habitación espaciosa, limpieza impecable y desayuno variado."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba15@gmail.com",
+      "hotelName": "Boutique Río",
+      "comment": "Pequeño hotel, habitación modesta y desayuno básico. Correcto para corta estancia."
+    },
+    {
+      "rating": 4,
+      "userEmail": "prueba16@gmail.com",
+      "hotelName": "Apartamentos Suite",
+      "comment": "Apartamentos cómodos, limpieza buena y personal atento. Ideal para familia."
+    },
+    {
+      "rating": 3,
+      "userEmail": "prueba17@gmail.com",
+      "hotelName": "Puente Encina Madrid",
+      "comment": "Habitación correcta, aunque algo anticuada. Personal amable, desayuno limitado."
+    },
+    {
+      "rating": 5,
+      "userEmail": "prueba18@gmail.com",
+      "hotelName": "Ágora Luna",
+      "comment": "Estancia perfecta: habitación amplia, limpia y personal muy atento. Desayuno excelente."
+    },
+    {
+      "rating": 2,
+      "userEmail": "prueba19@gmail.com",
+      "hotelName": "Mirador Santa Cruz Madrid",
+      "comment": "Hotel aceptable, habitación pequeña y desayuno limitado. Personal correcto."
+    }
+  ]
+}
