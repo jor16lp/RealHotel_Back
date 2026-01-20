@@ -53,10 +53,10 @@ async function callGroq(prompt) {
   const groqClient = getGroqClient();
 
   const completion = await groqClient.chat.completions.create({
-    // model: "openai/gpt-oss-120b", // Muy potente, con amplio contexto y buen rendimiento general.
-    // model: "openai/gpt-oss-20b", // Buen equilibrio entre velocidad y capacidad.
-    // model: "llama-3.3-70b-versatile", // Más lenta y más cara que la 8b, pero mejor para tareas de IA exigentes.
-    model: "llama-3.1-8b-instant", // Muy rápido y económico, ideal para prompts no muy complejos.
+    // model: "openai/gpt-oss-120b", 
+    // model: "openai/gpt-oss-20b", 
+    // model: "llama-3.3-70b-versatile", 
+    model: "llama-3.1-8b-instant", 
     messages: [{ role: "user", content: prompt }],
     temperature: 0.2,
   });
@@ -71,10 +71,10 @@ async function callOpenRouter(prompt) {
   const openRouterClient = getOpenRouterClient();
 
   const response = await openRouterClient.chat.completions.create({
-    model: "openai/gpt-4o-mini", // Mejor comprensión del contexto y coherencia. Buen equilibrio entre velocidad, coste y calidad.
-    // model: "anthropic/claude-3-haiku", // Más cauto, buena comprensión de sentimientos.
-    // model: "meta-llama/llama-3-70b-instruct", // Lento, mejor para análisis de textos largos.
-    // model: "meta-llama/llama-3.2-11b-vision-instruct", // Muy muy muy lento.
+    // model: "openai/gpt-4o-mini", 
+    // model: "anthropic/claude-3-haiku", 
+    // model: "meta-llama/llama-3-70b-instruct", 
+    model: "meta-llama/llama-3.2-11b-vision-instruct", 
     messages: [{ role: "user", content: prompt }],
     temperature: 0.2,
   });
