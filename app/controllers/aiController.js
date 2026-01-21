@@ -1,6 +1,5 @@
 import { estimateRatingFromComment, getHybridAIRecommendations } from "../services/aiService.js";
 import { getHybridRecommendations } from "../services/recommendationService.js";
-import hotelsService from "../services/hotelsService.js";
 
 export const estimateRating = async (req, res) => {
   try {
