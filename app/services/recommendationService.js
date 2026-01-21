@@ -140,6 +140,13 @@ export const getHybridRecommendations = async (userEmail, baseHotelName, city, l
   if (!userEmail && !baseHotelName) {
     throw new Error("Debe indicarse userEmail o baseHotelName");
   }
+  
+  if (userEmail) {
+    const ratings = await ratingsRepository.getByUser(userEmail);
+    if (!ratings || ratings.length === 0) {
+      return hotelsRepository.getTopHotels(limit, city);
+    }
+  }
 
   let finalScores = {};
 

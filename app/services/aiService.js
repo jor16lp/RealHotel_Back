@@ -245,13 +245,47 @@ Responde SOLO con los nombres separados por coma.
       return acc;
     }, {});
 
-  console.log(Object.keys(final).length)
+  // console.log(Object.keys(final).length)
+
   const finalHotels = Object.values(final)
     .filter(h => h.city && h.city.toLowerCase() === city.toLowerCase())
-    .slice(0, 10)
+    .slice(0, 10);
 
-  // if (finalHotels.length === 0)
-  //   return Object.values(final).slice(0, 10)
+  // console.log(finalHotels);
+
+  // --------------------------------------------------
+  // Step D: Añadir SIEMPRE 5 hoteles cercanos (otra ciudad)
+  // --------------------------------------------------
+  try {
+    if (finalHotels.length > 0) {
+      // Primer hotel como referencia geográfica
+      const { latitude, longitude } = finalHotels[0];
+
+      if (latitude && longitude) {
+        const nearbyHotels = await hotelsRepository.getNearbyHotels({
+          lat: latitude,
+          lng: longitude,
+          excludeCity: city,
+          limit: 5
+        });
+
+        const existingNames = new Set(finalHotels.map(h => h.name));
+
+        for (const h of nearbyHotels) {
+          if (!existingNames.has(h.name)) {
+            finalHotels.push({
+              ...h,
+              nearby: true
+            });
+          }
+        }
+      }
+    }
+  } catch (err) {
+    console.error("Error añadiendo hoteles cercanos:", err.message);
+  }
+
+  // console.log(finalHotels);
   
   return finalHotels;
 };

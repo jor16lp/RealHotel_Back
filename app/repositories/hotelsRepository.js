@@ -45,6 +45,51 @@ const hotelsRepository = {
     return rows;
   },
 
+  getTopHotels: async (limit = 10, city = null) => {
+    const db = getDB();
+
+    let query = "SELECT * FROM hotels";
+    const params = [];
+
+    if (city) {
+      query += " WHERE city = ?";
+      params.push(city);
+    }
+
+    query += " ORDER BY stars DESC, averagePrice ASC LIMIT ?";
+    params.push(limit);
+
+    const [rows] = await db.query(query, params);
+    return rows;
+  },
+
+  getNearbyHotels: async ({ lat, lng, excludeCity, radiusKm = 150, limit = 10 }) => {
+    const db = getDB();
+
+    const [rows] = await db.query(
+      `
+      SELECT *,
+      (
+        6371 * acos(
+          cos(radians(?)) *
+          cos(radians(latitude)) *
+          cos(radians(longitude) - radians(?)) +
+          sin(radians(?)) *
+          sin(radians(latitude))
+        )
+      ) AS distance
+      FROM hotels
+      WHERE city != ?
+      HAVING distance < ?
+      ORDER BY distance ASC
+      LIMIT ?
+      `,
+      [lat, lng, lat, excludeCity, radiusKm, limit]
+    );
+
+    return rows;
+  },
+
   create: async (hotel) => {
     const db = getDB();
     const { name, address, phoneNumber, capacity, diningRoomCapacity, city, community, stars, averagePrice, longitude, latitude } = hotel;
