@@ -33,3 +33,20 @@ export function ndcgAtK(recommended, relevant, k) {
 
   return idcg === 0 ? 0 : dcg / idcg;
 }
+
+export function ndcgAtKFromGains(gains, k) {
+  const dcg = gains
+    .slice(0, k)
+    .reduce((sum, gain, i) => {
+      return sum + (gain / Math.log2(i + 2));
+    }, 0);
+
+  const ideal = [...gains]
+    .sort((a, b) => b - a)
+    .slice(0, k)
+    .reduce((sum, gain, i) => {
+      return sum + (gain / Math.log2(i + 2));
+    }, 0);
+
+  return ideal === 0 ? 0 : dcg / ideal;
+}

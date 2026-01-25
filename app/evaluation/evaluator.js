@@ -5,11 +5,9 @@ import { initDB } from "../repositories/connection.js";
 import {
   precisionAtK,
   recallAtK,
-  ndcgAtK
+  ndcgAtK,
+  ndcgAtKFromGains
 } from "./metrics.js";
-
-import { getHybridRecommendations } from "../services/recommendationService.js";
-import { getHybridAIRecommendations } from "../services/aiService.js";
 
 // let city = 'Madrid';
 
@@ -33,12 +31,8 @@ export async function evaluateSystem(systemName, recommendFn, k = 10) {
     // Shuffle ratings
     const shuffled = [...userRatings].sort((a,b) => a.hotelName.localeCompare(b.hotelName));
 
-    const split = Math.floor(shuffled.length * 0.7);
-    const train = shuffled.slice(0, split);
-    const test = shuffled.slice(split);
-
-    // Relevantes = hoteles bien valorados en test
-    const relevantHotelNames = test
+    // Relevantes = hoteles bien valorados
+    const relevantHotelNames = shuffled
       .filter(r => r.rating >= 4)
       .map(r => r.hotelName);
 
@@ -70,10 +64,11 @@ export async function evaluateSystem(systemName, recommendFn, k = 10) {
     // Evaluación con relevancia contextual
     const recommendedNames = recommendations.map(h => h.name);
 
-    // const hits = recommendations.filter(h =>
-    //   relevantHotelNames.includes(h.name) ||
-    //   (h.city && relevantCities.has(h.city.toLowerCase()))
-    // );
+    const gains = recommendations.map(h => {
+      if (relevantHotelNames.includes(h.name)) return 1;
+      if (h.city && relevantCities.has(h.city.toLowerCase())) return 0.3;
+      return 0;
+    });
 
     const hits = recommendations.filter(h =>
         relevantHotelNames.includes(h.name)
@@ -99,11 +94,7 @@ export async function evaluateSystem(systemName, recommendFn, k = 10) {
         hits.map(h => h.name),
         k
       ),
-      ndcg: ndcgAtK(
-        recommendedNames,
-        hits.map(h => h.name),
-        k
-      )
+      ndcg: ndcgAtKFromGains(gains, k)
     });
   }
 
